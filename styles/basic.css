@@ -3,16 +3,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: aqua;
+    background-color: rgb(189, 189, 189);
     margin: 0px;
 }
 
 #grid {
     background-color: #ffffff;
     display:grid;
-    grid-template-columns: repeat(16, 25px);
-    grid-template-rows: repeat(16, 25px);
+    grid-template-columns: repeat(16, 40px);
+    grid-template-rows: repeat(16, 40px);
     align-self: center;
     justify-self: center;
+    margin: 5px;
+    border-style: solid;
+    border-width: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border-color: rgb(148, 10, 10);
 }
 
+#shake {
+    color: rgb(148, 10, 10);
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(148, 10, 10);
+    width: 150px;
+    align-self: center;
+    margin-top: 8px;
+}
